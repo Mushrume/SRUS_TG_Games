@@ -2,8 +2,8 @@
 
 class Player:
     def __init__(self, id: str, name: str):
-        self.id = id
-        self.name = name
+        self.__id = id
+        self.__name = name
 
     @property
     def uid(self):

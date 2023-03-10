@@ -1,6 +1,7 @@
 
 from app.player import Player
 
-class PlayerList():
+
+class PlayerList:
     def __init__(self):
-        self.head = None
+        self._head = None
